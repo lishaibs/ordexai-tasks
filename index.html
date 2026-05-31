@@ -206,23 +206,14 @@ import { getFirestore, collection, doc, query,
 /* ============================================================
    FIREBASE CONFIG — הדבק כאן את הערכים מ-Firebase Console
    ============================================================ */
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
 const FIREBASE_CONFIG = {
-  apiKey: "AIzaSyCq641QbYrEi_N93cR8W8eu3J4t8DZpi6Q",
-  authDomain: "personal-tools-ordexai.firebaseapp.com",
-  projectId: "personal-tools-ordexai",
-  storageBucket: "personal-tools-ordexai.firebasestorage.app",
-  messagingSenderId: "569191371066",
-  appId: "1:569191371066:web:71abbaf854dc2c6ddb0003"
+  apiKey:            'AIzaSyCq641QbYrEi_N93cR8W8eu3J4t8DZpi6Q',
+  authDomain:        'personal-tools-ordexai.firebaseapp.com',
+  projectId:         'personal-tools-ordexai',
+storageBucket: 'personal-tools-ordexai.firebasestorage.app',
+  messagingSenderId: 569191371066',
+  appId:             '1:569191371066:web:71abbaf854dc2c6ddb0003'
 };
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
 /* ============================================================ */
 
 const configured = !FIREBASE_CONFIG.apiKey.startsWith('YOUR');
